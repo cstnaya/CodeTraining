@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	#define int long long
+	 int n;
+	 while(cin >> n){
+	 	while (n-->0){
+	 		int a, b;
+	 		cin >> a >> b;
+	 		if (a>b) cout << ">" << endl;
+			else if (a<b) cout << "<" << endl;
+			else cout << "=" << endl;
+		}
+	 }
+	 return 0;
+}
